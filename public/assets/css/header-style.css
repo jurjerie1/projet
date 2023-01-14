@@ -1,0 +1,30 @@
+.styletext {
+    color: #cda333;
+}
+
+.fond {
+    background-color: #313131;
+}
+
+.centrer {
+    text-align: center;
+}
+
+.droit {
+    text-align: right;
+}
+
+.col-sm-3 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.itemcentrer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2em;
+}

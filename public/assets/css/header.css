@@ -1,0 +1,13 @@
+.col-sm-3 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.bg-dark {
+    background-color: #151515 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--primary-color) !important;
+}
+

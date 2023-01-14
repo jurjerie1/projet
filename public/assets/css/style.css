@@ -1,0 +1,75 @@
+:root {
+    --primary-color : #cda333;
+    --secondary-color : #313131;
+    --white : #ffffff;
+}
+
+.styletext {
+    color: var(--primary-color);
+}
+
+.styletext2 {
+    color: var(--white);
+}
+
+html{
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    position: relative;
+  }
+h1 {
+    color : var(--primary-color);
+}
+h2 {
+    font-size: 1.8em;
+}
+
+.fontlight {
+    font-weight: 400;
+}
+
+.bigspacingtop {
+    margin-top: 10%;
+}
+.bigspacingbottom {
+    margin-bottom: 10%;
+}
+.littlespacingtop {
+    margin-top: 5%;
+}
+.littlespacingbottom{
+    margin-bottom: 5%;
+}
+.tinyspacingbottom {
+    margin-bottom: 2%;
+}
+.tinyspacingtop {
+    margin-top: 2%;
+}
+
+.centrer {
+    text-align: center;
+}
+
+.droit {
+    text-align: right;
+}
+
+.itemcentrer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+@media screen and (max-width: 570px){
+    h2 {
+        font-size: 1.4em;
+     }
+}
+svg{
+    height: 20px;
+}

@@ -1,0 +1,12 @@
+.col-sm-3 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.border-color {
+    border-color: var(--primary-color);
+}
+
+.card {
+    background-color: #313131;
+}
